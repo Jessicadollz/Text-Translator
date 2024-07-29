@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Language from "./language/Language.jsx";
 import styles from "./Input.module.css";
-const api = "d5a2d91272msh063705f414bec1fp11963djsn58fae9870b70";
+const api = "677a85ca2amsh918a6d32fe5c1bep15b3dejsn43de075a92a6";
 
 function Input({setTranslatedTexts}) {
   const [allLanguage, setAllLanguage] = useState([]);
@@ -78,7 +78,7 @@ function Input({setTranslatedTexts}) {
       method: "POST",
       url: "https://text-translator2.p.rapidapi.com/translate",
       headers: {
-        "x-rapidapi-key": "d5a2d91272msh063705f414bec1fp11963djsn58fae9870b70",
+        "x-rapidapi-key": "677a85ca2amsh918a6d32fe5c1bep15b3dejsn43de075a92a6",
         "x-rapidapi-host": "text-translator2.p.rapidapi.com",
       },
       data: data,
